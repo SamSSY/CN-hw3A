@@ -1,0 +1,108 @@
+T = 0
+From node 0
+(0, 7, inf, inf, 10)
+     x     x     x     x     x
+     x     7                  
+     x                        
+     x                        
+     x                      10
+From node 1
+(7, 0, 2, 20, inf)
+     7     x                  
+     x     x     x     x     x
+           x     2            
+           x          20      
+           x                  
+From node 2
+(inf, 2, 0, 11, inf)
+                 x            
+           2     x            
+     x     x     x     x     x
+                 x    11      
+                 x            
+From node 3
+(inf, 20, 11, 0, 5)
+                       x      
+          20           x      
+                11     x      
+     x     x     x     x     x
+                       x     5
+From node 4
+(10, inf, inf, 5, 0)
+    10                       x
+                             x
+                             x
+                       5     x
+     x     x     x     x     x
+T = 1
+From node 0
+(0, 7, 9, 15, 10)
+     x     x     x     x     x
+     x     7                  
+     x     9                  
+     x    27                15
+     x                      10
+From node 1
+(7, 0, 2, 13, 17)
+     7     x                  
+     x     x     x     x     x
+           x     2    31      
+           x    13    20      
+    17     x          25      
+From node 2
+(9, 2, 0, 11, 16)
+           9     x            
+           2     x    31      
+     x     x     x     x     x
+          22     x    11      
+                 x    16      
+From node 3
+(15, 13, 11, 0, 5)
+          27           x    15
+          20    13     x      
+          22    11     x      
+     x     x     x     x     x
+                       x     5
+From node 4
+(10, 17, 16, 5, 0)
+    10                       x
+    17                25     x
+                      16     x
+                       5     x
+     x     x     x     x     x
+T = 2
+From node 0
+(0, 7, 9, 15, 10)
+     x     x     x     x     x
+     x     7                27
+     x     9                26
+     x    20                15
+     x    24                10
+From node 1
+(7, 0, 2, 13, 17)
+     7     x    11    35      
+     x     x     x     x     x
+    16     x     2    31      
+    22     x    13    20      
+    17     x    18    25      
+From node 2
+(9, 2, 0, 11, 16)
+           9     x    26      
+           2     x    24      
+     x     x     x     x     x
+          15     x    11      
+          19     x    16      
+From node 3
+(15, 13, 11, 0, 5)
+          27    20     x    15
+          20    13     x    22
+          22    11     x    21
+     x     x     x     x     x
+          37    27     x     5
+From node 4
+(10, 17, 16, 5, 0)
+    10                20     x
+    17                18     x
+    19                16     x
+    25                 5     x
+     x     x     x     x     x
