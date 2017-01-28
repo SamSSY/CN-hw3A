@@ -1,0 +1,144 @@
+T = 0
+From node 0
+(0, inf, 34, inf, 24)
+     x     x     x     x     x
+     x                        
+     x          34            
+     x                        
+     x                      24
+From node 1
+(inf, 0, 8, 3, 30)
+           x                  
+     x     x     x     x     x
+           x     8            
+           x           3      
+           x                30
+From node 2
+(34, 8, 0, 29, 15)
+    34           x            
+           8     x            
+     x     x     x     x     x
+                 x    29      
+                 x          15
+From node 3
+(inf, 3, 29, 0, 4)
+                       x      
+           3           x      
+                29     x      
+     x     x     x     x     x
+                       x     4
+From node 4
+(24, 30, 15, 4, 0)
+    24                       x
+          30                 x
+                15           x
+                       4     x
+     x     x     x     x     x
+T = 1
+From node 0
+(0, 42, 34, 28, 24)
+     x     x     x     x     x
+     x          42          54
+     x          34          39
+     x          63          28
+     x          49          24
+From node 1
+(42, 0, 8, 3, 7)
+           x    42          54
+     x     x     x     x     x
+           x     8    32    45
+           x    37     3    34
+           x    23     7    30
+From node 2
+(34, 8, 0, 11, 15)
+    34           x          39
+           8     x    32    45
+     x     x     x     x     x
+          11     x    29    19
+    58    38     x    33    15
+From node 3
+(28, 3, 11, 0, 4)
+                63     x    28
+           3    37     x    34
+          11    29     x    19
+     x     x     x     x     x
+          33    44     x     4
+From node 4
+(24, 7, 15, 4, 0)
+    24          49           x
+          30    23     7     x
+    58    38    15    33     x
+          33    44     4     x
+     x     x     x     x     x
+T = 2
+From node 0
+(0, 31, 34, 28, 24)
+     x     x     x     x     x
+     x          42          31
+     x          34          39
+     x          45          28
+     x          49          24
+From node 1
+(31, 0, 8, 3, 7)
+           x    42    31    54
+     x     x     x     x     x
+           x     8    14    45
+           x    19     3    34
+           x    23     7    30
+From node 2
+(34, 8, 0, 11, 15)
+    34    50     x    57    39
+    76     8     x    32    22
+     x     x     x     x     x
+    62    11     x    29    19
+    58    15     x    33    15
+From node 3
+(28, 3, 11, 0, 4)
+          45    63     x    28
+           3    37     x    11
+          11    29     x    19
+     x     x     x     x     x
+          10    44     x     4
+From node 4
+(24, 7, 15, 4, 0)
+    24    72    49    32     x
+    66    30    23     7     x
+    58    38    15    15     x
+    52    33    26     4     x
+     x     x     x     x     x
+T = 3
+From node 0
+(0, 31, 34, 28, 24)
+     x     x     x     x     x
+     x          42          31
+     x          34          39
+     x          45          28
+     x          49          24
+From node 1
+(31, 0, 8, 3, 7)
+           x    42    31    54
+     x     x     x     x     x
+           x     8    14    45
+           x    19     3    34
+           x    23     7    30
+From node 2
+(34, 8, 0, 11, 15)
+    34    39     x    57    39
+    65     8     x    32    22
+     x     x     x     x     x
+    62    11     x    29    19
+    58    15     x    33    15
+From node 3
+(28, 3, 11, 0, 4)
+          34    63     x    28
+           3    37     x    11
+          11    29     x    19
+     x     x     x     x     x
+          10    44     x     4
+From node 4
+(24, 7, 15, 4, 0)
+    24    61    49    32     x
+    55    30    23     7     x
+    58    38    15    15     x
+    52    33    26     4     x
+     x     x     x     x     x
